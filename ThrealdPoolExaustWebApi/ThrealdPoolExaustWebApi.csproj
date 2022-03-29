@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/54345470-2d94-4fe7-8504-14087a4b0326/resourceGroups/appsvc_linux_centralus/providers/microsoft.insights/components/ThrealdPoolExaustWebApi</ApplicationInsightsResourceId>
+    <UserSecretsId>514c75e6-8256-4754-bb6a-8e1ec6880021</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
